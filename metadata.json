@@ -1,0 +1,6 @@
+{
+  "name": "WordCraft",
+  "description": "Rich text document editor with real-time cloud collaboration, formatting, and live synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

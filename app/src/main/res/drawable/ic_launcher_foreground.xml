@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Document Ambient Shadow -->
+    <path
+        android:fillColor="#3A000000"
+        android:pathData="M38,29 h34 l12,12 v39 c0,3.3 -2.7,6 -6,6 H38 c-3.3,0 -6,-2.7 -6,-6 v-45 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Main Document Paper Sheet -->
+    <path
+        android:pathData="M37,27 h33 l12,12 v39 c0,3.3 -2.7,6 -6,6 H37 c-3.3,0 -6,-2.7 -6,-6 v-45 c0,-3.3 2.7,-6 6,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="270"
+                android:endColor="#E8EFF8"
+                android:startColor="#FFFFFF"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Page Folded Flap Corner -->
+    <path
+        android:fillColor="#C8D7EB"
+        android:pathData="M70,27 v10 c0,1.1 0.9,2 2,2 h10 z" />
+
+    <!-- Document Content Preview Lines -->
+    <path
+        android:fillColor="#A5B7CD"
+        android:pathData="M56,43 h20 v2.5 h-20 z" />
+    <path
+        android:fillColor="#BAC7D8"
+        android:pathData="M56,49 h18 v2.5 h-18 z" />
+    <path
+        android:fillColor="#BAC7D8"
+        android:pathData="M56,55 h20 v2.5 h-20 z" />
+    <path
+        android:fillColor="#BAC7D8"
+        android:pathData="M56,61 h16 v2.5 h-16 z" />
+    <path
+        android:fillColor="#CBD7E5"
+        android:pathData="M37,69 h38 v2 h-38 z" />
+    <path
+        android:fillColor="#CBD7E5"
+        android:pathData="M37,74 h32 v2 h-32 z" />
+
+    <!-- Left Floating "W" Tile Drop Shadow -->
+    <path
+        android:fillColor="#45000000"
+        android:pathData="M27,37 h28 c2.2,0 4,1.8 4,4 v28 c0,2.2 -1.8,4 -4,4 H27 c-2.2,0 -4,-1.8 -4,-4 v-28 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- Left Floating "W" Tile (Rich Blue Gradient) -->
+    <path
+        android:pathData="M26,35 h28 c2.2,0 4,1.8 4,4 v28 c0,2.2 -1.8,4 -4,4 H26 c-2.2,0 -4,-1.8 -4,-4 v-28 c0,-2.2 1.8,-4 4,-4 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:endColor="#0B3E8A"
+                android:startColor="#1A66D4"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Bold Modern 'W' Emblem Glyph -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M29,43 h4.4 l3.2,14.5 l3.2,-14.5 h4.2 l3.2,14.5 l3.2,-14.5 h4.4 l-5,19 h-4.4 l-3.4,-14.2 l-3.4,14.2 h-4.4 z" />
+</vector>
